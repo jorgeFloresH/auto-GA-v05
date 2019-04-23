@@ -14,3 +14,5 @@ Feature: Login
     Given POST "/post" postman endpoint is configured whit value "diplomado testing"
     Then the response 'data' value is "diplomado testing"
     And the status code post should be 200
+
+
